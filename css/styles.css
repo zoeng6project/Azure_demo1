@@ -1,0 +1,151 @@
+html {
+	background-color: #FDBE00;
+}
+
+body {
+	font-size: 100%;
+	font-family: "Lucida Grande", Helvetica, Arial, sans-serif;
+	color: #333;
+	width: 800px;
+	background-color: #FFF;
+	margin: 20px auto;
+	padding: 2em 2em 4em 2em;
+	border-radius: 5px;
+}
+
+
+header {
+	display : flex ; 
+	align-items: center ;
+}
+
+
+h1 {
+	color: #1B475D ;
+	font-family: cursive;
+	text-align: left;
+	margin-top: 0;
+	width: 250px;
+	height: 50px;
+	
+}
+
+
+h2 {
+	color: #C88039;
+}
+
+h3 {
+	color: #3B478C;
+}
+
+
+fieldset {
+	border: 1px solid #AAA;
+	margin: 1em 0;
+}
+legend {
+	font-size: 85%;
+	text-transform: uppercase;
+	color: #AAA;
+}
+fieldset div {
+	margin-bottom: 0.5em;
+}
+div label {
+	display: block;
+	width: 200px;
+	float: left;
+	text-align: right;
+	padding-right: 1em;
+}
+input[type="text"] {
+    text-align: left;
+}
+small {
+	font-size: 70%;
+}
+
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left; 
+    border-bottom: 1px solid black;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+
+.topnav {
+	background-color: #3B478C;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	  
+	}
+	
+  
+	.topnav a {
+	  float: left;
+	  color: #f2f2f2;
+	  text-align: center;
+	  padding: 14px 16px;
+	  text-decoration: none;
+	  font-size: 17px;
+	}
+	
+  
+	.topnav a:hover {
+	  background-color: #ddd;
+	  color: black;
+	}
+	
+  
+  
+  .topnav input[type=text] {
+	  float: right;
+	  padding: 6px;
+	  border: none;
+	  margin-top: 8px;
+	  margin-right: 16px;
+	  font-size: 17px;
+	}
+
+
+.footer-container {
+		font-family: "Lucida Grande", Helvetica, Arial, sans-serif;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		padding: 5px;
+		background-color: #1B475D ;
+		font-size : 8px;
+		color : white;
+	}
+	
+	.left-side,
+	.right-side {
+		flex: 1;
+	}
+	
+	.social-media {
+		list-style-type: none;
+		display: flex;
+		justify-content: flex-end;
+	}
+	
+	.social-media li {
+		margin-left: 5px;
+	}
+	
+	.social-media img {
+		width: 20px; 
+		height: 20px; 
+	}
